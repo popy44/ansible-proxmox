@@ -9,7 +9,7 @@
 
 ## Utilisation
 
-1. `git clone git@github.com:simplonco/ansible-proxmox.git`
+1. `git clone https://github.com/simplonco/ansible-proxmox.git`
 2. `cp inventory.dist inventory` et l'adapter avec vos serveurs (https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
 3. `cp main.yml.dist main.yml` et l'adapter à vos besoin, ajouter des interfaces supplémentaires et des réseaux pour le DHCP
 4. `ansible-playbook main.yml`
